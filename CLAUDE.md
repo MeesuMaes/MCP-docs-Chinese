@@ -1,27 +1,27 @@
-# MCP Documentation Guidelines
+# MCP 文档指南
 
-## Build Commands
-- Preview changes locally: `mintlify dev`
-- Deploy: Automatic after PR merge to main branch
+## 构建命令
+- 本地预览更改：`mintlify dev`
+- 部署：在PR合并到主分支后自动完成
 
-## Style Guidelines
-- Follow existing MDX formatting and components
-- Keep content clear, concise, and technically accurate
-- Include practical code examples where appropriate
-- Test all links and code samples before submitting
-- Maintain consistent structure with existing documentation
-- When documenting CLI commands, use two-line format with the prompt on a separate line: `$ claude` followed by `> /command`
-- Use appropriate headings: "When to use", "Steps", and "Tips" for tutorials
-- Branch naming convention: prefix with "ashwin/" (e.g., "ashwin/add-mcp-cli-docs")
+## 样式指南
+- 遵循现有的MDX格式和组件
+- 内容保持清晰、简洁且技术上准确
+- 在适当的情况下包含实用的代码示例
+- 提交前测试所有链接和代码示例
+- 与现有文档保持一致的结构
+- 在记录CLI命令时，使用两行格式，提示符单独一行：例如 `$ claude` 后跟 `> /command`
+- 使用适当的标题：“何时使用”、“步骤”和“提示”用于教程
+- 分支命名约定：以 "ashwin/" 为前缀（例如，"ashwin/add-mcp-cli-docs"）
 
-## File Organization
-- Place new pages in appropriate sections (concepts, tutorials, etc.)
-- Update docs.json when adding new pages
-- Follow existing file naming conventions (kebab-case.mdx)
-- Include proper frontmatter in MDX files
+## 文件组织
+- 将新页面放置在适当的章节中（概念、教程等）
+- 添加新页面时更新 `docs.json`
+- 遵循现有的文件命名约定（kebab-case.mdx）
+- 在MDX文件中包含正确的前言（frontmatter）
 
-## Documentation Standards
-- Prioritize user understanding over technical completeness
-- Document both basic syntax and concrete examples
-- Structure command documentation with clear formatting
-- For image analysis examples, use quotes: `$ claude "Analyze this image: /path/to/image.png"`
+## 文档标准
+- 优先考虑用户理解而非技术完整性
+- 记录基本语法和具体示例
+- 使用清晰的格式构建命令文档
+- 对于图像分析示例，使用引号：`$ claude "Analyze this image: /path/to/image.png"`

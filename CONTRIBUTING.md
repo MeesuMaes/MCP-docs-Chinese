@@ -1,49 +1,49 @@
-# Contributing to MCP Documentation
+# 贡献 MCP 文档
 
-Thank you for your interest in contributing to the Model Context Protocol (MCP) documentation! This guide will help you get started with contributing.
+感谢您对贡献模型上下文协议 (MCP) 文档感兴趣！本指南将帮助您开始贡献。
 
-## Getting Started
+## 开始之前
 
-1. Install the required tools:
+1. 安装所需的工具：
    - Node.js
    - Git
    - [Mintlify CLI](https://www.npmjs.com/package/mintlify): `npm i -g mintlify`
-2. Fork and clone the repository
-3. Create a new branch for your changes
-4. Run `mintlify dev` to preview changes locally
+2. Fork 并克隆存储库
+3. 为您的更改创建一个新分支
+4. 运行 `mintlify dev` 在本地预览更改
 
-## Documentation Guidelines
+## 文档指南
 
-- Keep content clear, concise, and technically accurate
-- Follow the existing file structure and naming conventions
-- Include code examples where appropriate
-- Use proper MDX formatting and components
-- Test all links and code samples
+- 确保内容清晰、简洁且技术上准确
+- 遵循现有的文件结构和命名约定
+- 在适当的地方包含代码示例
+- 使用正确的 MDX 格式和组件
+- 测试所有链接和代码示例
 
-## Content Types
+## 内容类型
 
-You can contribute to:
+您可以贡献以下内容：
 
-- Conceptual guides
-- API reference documentation
-- Tutorials and quickstarts
-- Best practices and examples
-- Troubleshooting guides
+- 概念性指南
+- API 参考文档
+- 教程与快速入门
+- 最佳实践与示例
+- 故障排除指南
 
-## Pull Request Process
+## Pull Request 流程
 
-1. Ensure your changes follow our documentation guidelines
-2. Update the relevant table of contents if needed
-3. Test your changes locally using `mintlify dev`
-4. Submit a pull request with a clear description of your changes
-5. Wait for review and address any feedback
+1. 确保您的更改符合我们的文档指南
+2. 如有必要，更新相关目录
+3. 使用 `mintlify dev` 在本地测试您的更改
+4. 提交带有明确描述的 Pull Request
+5. 等待审查并解决任何反馈
 
-## Need Help?
+## 需要帮助？
 
-- Check existing documentation at [modelcontextprotocol.io](https://modelcontextprotocol.io)
-- [Open an issue](https://github.com/modelcontextprotocol/docs/issues) for bugs or concerns
-- Join our [community discussions](https://github.com/modelcontextprotocol/docs/discussions)
+- 查看现有文档：[modelcontextprotocol.io](https://modelcontextprotocol.io)
+- [提交问题](https://github.com/modelcontextprotocol/docs/issues) 以报告错误或提出问题
+- 加入我们的 [社区讨论](https://github.com/modelcontextprotocol/docs/discussions)
 
-## Code of Conduct
+## 行为准则
 
-Please note that this project follows our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to uphold these guidelines.
+请注意，此项目遵循我们的 [行为准则](CODE_OF_CONDUCT.md)。参与即表示您同意遵守这些准则。
